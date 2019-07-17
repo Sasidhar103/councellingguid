@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1055176945137",
+    "firebase_url": "https://councellingguid.firebaseio.com",
+    "project_id": "councellingguid",
+    "storage_bucket": "councellingguid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055176945137:android:51e39c6307449a2e",
+        "android_client_info": {
+          "package_name": "in.climber.www.councellingguid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055176945137-100st9g7opa9uhgg0fdaqcf5umpa47pm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.climber.www.councellingguid",
+            "certificate_hash": "7483b5d6b73c4b6fb69d3c772abadf7c245c4e3d"
+          }
+        },
+        {
+          "client_id": "1055176945137-ikm6hboi1jo9ut7skorkeq7crbj4j48c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzD4mgcNF2XcAh6WyAX-1EXWWmMT_1p7o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055176945137-ikm6hboi1jo9ut7skorkeq7crbj4j48c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

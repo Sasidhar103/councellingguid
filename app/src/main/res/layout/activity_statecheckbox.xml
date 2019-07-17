@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/kerala"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:text="KERALA" />
+
+    <CheckBox
+        android:id="@+id/tripura"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:text="TRIPURA"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/mp"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:text="MADHYAPRADESH" />
+    <CheckBox
+        android:id="@+id/up"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:text="UTTARPRADESH" />
+    <CheckBox
+        android:id="@+id/punjab"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:text="PUNJAB" />
+    <CheckBox
+        android:id="@+id/raj"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:text="RAJASTHAN" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="12dp"
+        android:background="@color/colorAccent"
+        android:text="OK" />
+
+</LinearLayout>

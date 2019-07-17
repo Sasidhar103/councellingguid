@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".Retreive">
+
+    <EditText
+        android:id="@+id/rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="66dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:hint="Enter rank" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="203dp"
+        android:background="@color/colorAccent"
+        android:text="Get College"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/rank"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/textView5"
+        android:layout_marginStart="52dp"
+        android:text="CATAGORY RANK:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/textView6"
+        android:layout_alignBottom="@+id/rank"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="-187dp"
+        android:text="APPLY FILTERS FOR STATES:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView9"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:layout_alignBottom="@+id/rank"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginStart="19dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginBottom="-226dp"-->
+        <!--android:text="APPLY FILTERS FOR BRANCHES:"-->
+        <!--android:textColor="@color/colorPrimaryDark"-->
+        <!--android:textStyle="bold" />-->
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="47dp"
+        android:text="CATEGORY"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/submit"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-7dp"
+        android:layout_marginTop="26dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="ENTER THE DETAILS TO PREDICT COLLEGES"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="204dp"
+        android:layout_marginBottom="10dp"
+        android:entries="@array/category"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:prompt="@string/category_prompt" />
+
+    <Button
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_marginEnd="-155dp"
+        android:layout_toStartOf="@+id/rank"
+        android:background="@color/colorAccent"
+        android:text="STATES"
+        android:textColor="@android:color/black" />
+
+    <!--<Button-->
+        <!--android:id="@+id/branch"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginEnd="-125dp"-->
+        <!--android:layout_marginBottom="144dp"-->
+        <!--android:layout_toStartOf="@+id/rank"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--android:text="BRANCHES" />-->
+
+</RelativeLayout>
